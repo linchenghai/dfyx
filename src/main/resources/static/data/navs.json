@@ -1,0 +1,371 @@
+[
+
+    {
+        "title": "测试列表",
+        "href": "../commodity/test",
+        "icon": "&#xe665;",
+        "spread": true
+    },
+    {
+        "title": "招生",
+        "href": "",
+        "icon": "&#xe613;",
+        "spread": false,
+        "children": [
+            {
+                "title": "客户管理",
+                "href": "",
+                "icon": "&#xe613;",
+                "spread": false
+            },
+            {
+                "title": "试听预约管理",
+                "href": "",
+                "fontFamily": "layui-icon",
+                "icon": "&#xe649;",
+                "spread": false
+            },
+            {
+                "title": "跟进管理",
+                "href": "",
+                "icon": "&#xe6b2;",
+                "spread": false
+            },
+            {
+                "title": "公共客户",
+                "href": "",
+                "icon": "&#xe613;",
+                "spread": false
+            },
+            {
+                "title": "数据分析",
+                "href": "",
+                "icon": "&#xe660;",
+                "spread": false
+            }
+        ]
+    },
+    {
+        "title": "学员管理",
+        "href": "",
+        "icon": "&#xe613;",
+        "spread": false,
+        "children": [
+            {
+                "title": "积分管理",
+                "href": "",
+                "icon": "&#xe60a;",
+                "spread": false
+            },
+            {
+                "title": "入学测管理",
+                "href": "",
+                "fontFamily": "layui-icon",
+                "icon": "&#xe60a;",
+                "spread": false
+            },
+            {
+                "title": "成绩测评报告管理",
+                "href": "",
+                "icon": "&#xe60a;",
+                "spread": false
+            },
+            {
+                "title": "其他测试",
+                "href": "",
+                "icon": "&#xe60a;",
+                "spread": false
+            },
+            {
+                "title": "精彩瞬间",
+                "href": "",
+                "icon": "&#xe634;",
+                "spread": false
+            },
+            {
+                "title": "回访管理",
+                "href": "",
+                "icon": "&#xe66c;",
+                "spread": false
+            },
+            {
+                "title": "请假管理",
+                "href": "",
+                "icon": "&#xe68d;",
+                "spread": false
+            },
+            {
+                "title": "退费结转换班管理",
+                "href": "",
+                "icon": "&#xe60a;",
+                "spread": false
+            },
+            {
+                "title": "学员管理",
+                "href": "",
+                "icon": "&#xe770;",
+                "spread": false
+            }
+        ]
+    },
+    {
+        "title": "教务",
+        "fontFamily": "ok-icon",
+        "icon": "&#xe736;",
+        "spread": false,
+        "children": [
+            {
+                "title": "班课管理",
+                "href": "",
+                "icon": "&#xe658;",
+                "spread": false,
+                "children": [
+                    {
+                        "title": "排课",
+                        "href": "",
+                        "icon": "&#xe742;",
+                        "spread": false
+                    },
+                    {
+                        "title": "班级管理",
+                        "href": "",
+                        "icon": "&#xe753;",
+                        "spread": false
+                    },
+                    {
+                        "title": "考勤审批管理",
+                        "href": "",
+                        "icon": "&#xe74a;",
+                        "spread": false
+                    },
+                    {
+                        "title": "班级公告管理",
+                        "href": "",
+                        "icon": "&#xe7c5;",
+                        "spread": false
+                    }
+                ]
+            },
+            {
+                "title": "一对一管理",
+                "href": "",
+                "icon": "&#xe658;",
+                "spread": false,
+                "children": [
+                    {
+                        "title": "一对一排课",
+                        "href": "",
+                        "icon": "&#xe742;",
+                        "spread": false
+                    },
+                    {
+                        "title": "约课管理",
+                        "href": "",
+                        "icon": "&#xe652;",
+                        "spread": false
+                    },
+                    {
+                        "title": "考勤审批管理",
+                        "href": "",
+                        "icon": "&#xe74a;",
+                        "spread": false
+                    },
+                    {
+                        "title": "班级公告管理",
+                        "href": "",
+                        "icon": "&#xe7c5;",
+                        "spread": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "教学",
+        "fontFamily": "ok-icon",
+        "icon": "&#xe742;",
+        "spread": false,
+        "children": [
+            {
+                "title": "班课管理",
+                "href": "",
+                "icon": "&#xe649;",
+                "spread": false,
+                "children": [
+                    {
+                        "title": "教学计划",
+                        "href": "",
+                        "icon": "&#xe6b0;",
+                        "spread": false
+                    },
+                    {
+                        "title": "进度管理",
+                        "href": "",
+                        "icon": "&#xe7ad;",
+                        "spread": false
+                    },
+                    {
+                        "title": "考勤管理",
+                        "href": "",
+                        "icon": "&#xe70a;",
+                        "spread": false
+                    }
+                ]
+            },
+            {
+                "title": "一对一管理",
+                "href": "",
+                "icon": "&#xe715;",
+                "spread": false,
+                "children": [
+                    {
+                        "title": "教学计划",
+                        "href": "",
+                        "icon": "&#xe6b0;",
+                        "spread": false
+                    },
+                    {
+                        "title": "进度管理",
+                        "href": "",
+                        "icon": "&#xe7ad;",
+                        "spread": false
+                    },
+                    {
+                        "title": "考勤管理",
+                        "href": "",
+                        "icon": "&#xe70a;",
+                        "spread": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "财务",
+        "href": "",
+        "icon": "&#xe65e;",
+        "spread": false,
+        "children": [
+            {
+                "title": "一对一预收",
+                "href": "",
+                "icon": "&#xe60a;",
+                "spread": false
+            },
+            {
+                "title": "班课预收",
+                "href": "",
+                "icon": "&#xe60a;",
+                "spread": false
+            },
+            {
+                "title": "扫码付款",
+                "href": "",
+                "icon": "&#xe677;",
+                "spread": false
+            },
+            {
+                "title": "线下退费管理",
+                "href": "",
+                "icon": "&#xe60a;",
+                "spread": false
+            },
+            {
+                "title": "线上退费管理",
+                "href": "",
+                "icon": "&#xe60a;",
+                "spread": false
+            },
+            {
+                "title": "结转记录",
+                "href": "",
+                "icon": "&#xe60a;",
+                "spread": false
+            },
+            {
+                "title": "换班记录",
+                "href": "",
+                "icon": "&#xe60a;",
+                "spread": false
+            },
+            {
+                "title": "扣费记录",
+                "href": "",
+                "icon": "&#xe60a;",
+                "spread": false
+            }
+        ]
+    },
+    {
+        "title": "数据统计",
+        "href": "",
+        "icon": "&#xe606;",
+        "spread": false,
+        "children": [
+            {
+                "title": "教师续班率",
+                "href": "",
+                "fontFamily": "layui-icon",
+                "icon": "&#xe660;",
+                "spread": false
+            },
+            {
+                "title": "教务续班率",
+                "href": "",
+                "fontFamily": "layui-icon",
+                "icon": "&#xe660;",
+                "spread": false
+            },
+            {
+                "title": "科目续班率",
+                "href": "",
+                "icon": "&#xe660;",
+                "spread": false
+            },
+            {
+                "title": "校区续班率",
+                "href": "",
+                "icon": "&#xe660;",
+                "spread": false
+            },
+            {
+                "title":"校区人次统计",
+                "href": "",
+                "icon": "&#xe660;",
+                "spread": false
+            }
+        ]
+    },
+    {
+        "title": "系统设置",
+        "href": "",
+        "icon": "&#xe716;",
+        "spread": false,
+        "children": [
+            {
+                "title": "用户管理",
+                "href": "",
+                "icon": "&#xe770;",
+                "spread": false
+            },
+            {
+                "title": "校区管理",
+                "href": "",
+                "icon": "&#xe715;",
+                "spread": false
+            },
+            {
+                "title": "商户号管理",
+                "href": "",
+                "icon": "&#xe60a;",
+                "spread": false
+            },
+            {
+                "title": "个人信息管理",
+                "href": "",
+                "icon": "&#xe770;",
+                "spread": false
+            }
+        ]
+    }
+]

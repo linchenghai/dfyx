@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dfyx.crm.mapper.CommodityMapper">
+	
+	<select id="listCommodity" resultType="Commodity">
+	SELECT * FROM commodity;
+	</select>
+	
+	<select id="getCommodityById" resultType="Commodity">
+	SELECT * FROM commodity WHERE id=#{id};
+	</select>
+	
+	<insert id="addCommodity">
+	INSERT INTO commodity VALUES(#{id},#{name},#{brand},#{category},#{price},#{discount},#{points});
+	</insert>
+	
+	<update id="updateCommodity">
+	UPDATE commodity SET name=#{name},brand=#{brand},category=#{category},price=#{price},discount=#{discount},points=#{points} WHERE id=#{id};
+	</update>
+	
+	<delete id="deleteCommodity">
+	DELETE FROM commodity WHERE id=#{id};
+	</delete>
+	
+	<select id="listCommoditys" resultType="Commodity" parameterType="java.lang.String">
+        SELECT * FROM commodity      
+        <if test="name != null">
+        	where name like CONCAT('%',#{name},'%')
+        </if>
+		<!--<if test="limit != null">
+			<if test="page != null">
+				limit ${page}, ${limit}
+			</if>
+			<if test="page == null">
+				limit ${limit}
+			</if>
+		</if>-->
+    </select>
+    
+    <select id="commodityCount" resultType="int">
+		SELECT COUNT(*) FROM commodity;
+	</select>
+</mapper>
